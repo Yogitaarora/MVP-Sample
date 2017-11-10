@@ -39,6 +39,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
+
+
             case R.id.update:
                 presenter.saveName(etFirstName.getText().toString(), etLastName.getText().toString());
                 break;
